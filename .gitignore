@@ -1,0 +1,15 @@
+# Database
+backend/clinica.db
+backend/uploads/
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# System
+.DS_Store
