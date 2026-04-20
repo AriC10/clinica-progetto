@@ -1,7 +1,7 @@
 import { useState, useEffect, createContext, useContext } from "react"
 
 // ─── API ─────────────────────────────────────────────────────────────────────
-const BASE = "http://localhost:8000"
+const BASE = "https://clinica-backend.onrender.com"
 const api = {
   async post(path, body) {
     const token = localStorage.getItem("token")
